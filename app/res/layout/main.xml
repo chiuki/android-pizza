@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:pizza="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center" >
+  <com.sqisland.android.pizza.Pizza
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_margin="10dp"
+    pizza:color="#f00"
+    pizza:num_wedges="4" />
+  <com.sqisland.android.pizza.Pizza
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:layout_margin="10dp"
+    pizza:stroke_width="15"
+    pizza:num_wedges="6" />
+</LinearLayout>
